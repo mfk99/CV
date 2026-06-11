@@ -1,11 +1,11 @@
+import "./Skills.css";
 import { motion } from "motion/react";
-import "./Timeline.css";
 
-export default function Timeline() {
+export default function Skills() {
   return (
-    <div id="timeline-grid">
+    <div id="skills-grid">
       <motion.div
-        id="timeline-container"
+        id="skills-container"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -15,9 +15,13 @@ export default function Timeline() {
         </h2>
         <ProgrammingSkills />
       </motion.div>
-      <motion.div id="timeline-container">
+      <motion.div id="skills-container">
         <h2 style={{ color: "#fff", textAlign: "left" }}>Skills</h2>
         <GeneralSkills />
+      </motion.div>
+      <motion.div id="skills-container">
+        <h2 style={{ color: "#fff", textAlign: "left" }}>Projects</h2>
+        <Projects />
       </motion.div>
     </div>
   );
@@ -34,7 +38,7 @@ const proficiencyMap = {
   Skilled: 90,
 };
 
-export function SkillLine({ language, proficiency }) {
+export function SkillLine({ language, proficiency }: ProgrammingSkill) {
   const position = proficiencyMap[proficiency];
 
   return (
@@ -103,7 +107,7 @@ function GeneralSkills() {
     "Github Actions",
   ];
   return (
-    <ul>
+    <ul style={{ textAlign: "left" }}>
       {skills.map((skill) => (
         <li>{skill}</li>
       ))}
@@ -119,7 +123,11 @@ interface Project {
 
 function Projects() {
   let projectList: Project[] = [
-    { name: "Pheme", url: "https://github.com/mfk99/Pheme" },
+    {
+      name: "Mobvita",
+      url: "https://github.com/UniversityOfHelsinkiCS/mobvita",
+    },
+
     { name: "msc-thesis", url: "https://github.com/mfk99/msc-thesis-code" },
     {
       name: "TextAdventure",
@@ -129,13 +137,14 @@ function Projects() {
       name: "DistributedProject",
       url: "https://github.com/AnttiVainikka/DistributedProject",
     },
+    { name: "Pheme", url: "https://github.com/mfk99/Pheme" },
     {
       name: "Mobvita",
       url: "https://github.com/UniversityOfHelsinkiCS/mobvita",
     },
   ];
   return (
-    <ul>
+    <ul style={{ textAlign: "left" }}>
       {projectList.map((project) => (
         <li>
           <a href={project.url} target="_blank">

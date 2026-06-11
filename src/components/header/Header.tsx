@@ -1,6 +1,6 @@
-import portraitImg from "../assets/portrait.jpg";
-import githubLogo from "../assets/github.svg";
-import linkedinLogo from "../assets/linkedin.svg";
+import portraitImg from "../../assets/portrait.jpg";
+import githubLogo from "../../assets/github.svg";
+import linkedinLogo from "../../assets/linkedin.svg";
 import { motion } from "motion/react";
 import "./Header.css";
 
@@ -66,7 +66,7 @@ export default function Header() {
                   <li>Reading</li>
                   <li>Gym</li>
                   <li>Computer hardware</li>
-                  <li></li>
+                  <li>Video games</li>
                 </ul>
               </div>
             </div>
