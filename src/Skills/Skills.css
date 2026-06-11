@@ -1,0 +1,18 @@
+#portrait-img {
+  border-radius: 20px 5px 20px 5px;
+}
+
+#skills-grid {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 5%;
+}
+
+#skills-container {
+  background: #2c2c2c;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 5px 5px;
+  gap: 10px;
+}
