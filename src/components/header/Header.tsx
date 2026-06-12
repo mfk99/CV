@@ -1,6 +1,8 @@
 import portraitImg from "../../assets/portrait.jpg";
 import githubLogo from "../../assets/github.svg";
 import linkedinLogo from "../../assets/linkedin.svg";
+import emailLogo from "../../assets/email.svg";
+
 import { motion } from "motion/react";
 import "./Header.css";
 
@@ -33,7 +35,7 @@ export default function Header() {
           <div
             style={{
               height: "100%",
-              padding: "30px",
+              padding: "25px",
               textAlign: "left",
             }}
           >
@@ -67,12 +69,22 @@ function Socials() {
       className="container"
       style={{
         display: "grid",
-        gridTemplateColumns: "auto auto",
-        columnGap: "50%",
-        paddingLeft: "15%",
-        paddingRight: "15%",
+        gridTemplateColumns: "20% 20% 20%",
+        gridTemplateRows: "auto",
+        columnGap: "20%",
+        paddingLeft: "5%",
+        paddingRight: "5%",
       }}
     >
+      <motion.a
+        href="mailto:matti.kahkonen99@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 0.8 }}
+      >
+        <img src={emailLogo} width="100%" alt="Github link" title="Email" />
+      </motion.a>
       <motion.a
         href="https://github.com/mfk99/"
         target="_blank"
