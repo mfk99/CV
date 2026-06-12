@@ -33,7 +33,7 @@ export default function Header() {
           <div
             style={{
               height: "100%",
-              padding: "40px",
+              padding: "30px",
               textAlign: "left",
             }}
           >
@@ -47,28 +47,12 @@ export default function Header() {
             <div
               style={{
                 display: "grid",
-                gridTemplateColumns: "40% 40%",
-                gap: "20%",
+                gridTemplateColumns: "45% 45%",
+                gap: "10%",
               }}
             >
-              <div>
-                <h3>Interests</h3>
-                <ul>
-                  <li>Software Development</li>
-                  <li>Algorithms</li>
-                  <li>Combinatorial optimization</li>
-                  <li>SAT</li>
-                </ul>
-              </div>
-              <div>
-                <h3>Hobbies</h3>
-                <ul>
-                  <li>Reading</li>
-                  <li>Gym</li>
-                  <li>Computer hardware</li>
-                  <li>Video games</li>
-                </ul>
-              </div>
+              <Interests />
+              <Hobbies />
             </div>
           </div>
         </div>
@@ -117,6 +101,34 @@ function Socials() {
           title="My LinkedIn"
         />
       </motion.a>
+    </div>
+  );
+}
+
+function Interests() {
+  return (
+    <div>
+      <h3>Interests</h3>
+      <ul>
+        <li>Software Development</li>
+        <li>Algorithms</li>
+        <li>Combinatorial optimization</li>
+        <li>SAT</li>
+      </ul>
+    </div>
+  );
+}
+
+function Hobbies() {
+  return (
+    <div>
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Literature (classic, fiction, philosophy)</li>
+        <li>Gym</li>
+        <li>Computer hardware</li>
+        <li>Video games</li>
+      </ul>
     </div>
   );
 }
