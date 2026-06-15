@@ -37,7 +37,7 @@ export default function DotBackground() {
     });
 
     // 🌊 Ripple system
-    let ripples = [];
+    let ripples: any[] = [];
     let lastRippleTime = 0;
 
     function animate(time: number) {
