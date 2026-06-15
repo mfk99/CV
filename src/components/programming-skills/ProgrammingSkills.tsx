@@ -58,17 +58,25 @@ export function ProgrammingSkills() {
     { language: "TypeScript", proficiency: "Intermediate" },
   ];
   return (
-    <div style={{ alignContent: "center" }}>
+    <div>
       <h2 style={{ color: "#fff", textAlign: "left" }}>
         Programming Languages
       </h2>
-      {skills.map((skill) => (
-        <SkillLine
-          key={skill.language}
-          language={skill.language}
-          proficiency={skill.proficiency}
-        />
-      ))}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        {skills.map((skill) => (
+          <SkillLine
+            key={skill.language}
+            language={skill.language}
+            proficiency={skill.proficiency}
+          />
+        ))}
+      </div>
     </div>
   );
 }
