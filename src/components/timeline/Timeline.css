@@ -1,0 +1,23 @@
+#timeline-card {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  grid-template-rows: auto auto;
+}
+
+#timeline-card-title {
+  color: rgb(206, 206, 206);
+  text-align: left;
+}
+
+#timeline-card-date {
+  color: rgb(89, 111, 140);
+  font-size: 14px;
+  text-align: right;
+}
+
+#timeline-card-desc {
+  margin-top: 5px;
+  color: rgb(139, 161, 190);
+  font-size: 14px;
+  text-align: left;
+}

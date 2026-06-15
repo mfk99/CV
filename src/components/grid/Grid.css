@@ -34,6 +34,7 @@
 
 #timeline-grid {
   padding-top: 40px;
+  padding-bottom: 40px;
   display: grid;
   grid-template-columns: 100%;
 }

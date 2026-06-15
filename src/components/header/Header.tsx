@@ -14,7 +14,7 @@ export default function Header() {
           paddingTop: "50px",
         }}
       />
-      <div className="header-container" id="header-container">
+      <div id="header-container">
         <div>
           <img
             id="portrait-img"
