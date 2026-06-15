@@ -112,7 +112,7 @@ export const events: PositionedEvent[] = [
   },
   {
     id: "junior",
-    title: "Junior QA Engineer Promotion",
+    title: "Promotion to Junior",
     date: "1.6.2025",
     lane: 1,
     parent: "visma-cntd",

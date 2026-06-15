@@ -10,14 +10,14 @@
 }
 
 #timeline-card-date {
-  color: rgb(89, 111, 140);
+  color: rgb(89, 140, 96);
   font-size: 14px;
   text-align: right;
 }
 
 #timeline-card-desc {
   margin-top: 5px;
-  color: rgb(139, 161, 190);
+  color: rgb(139, 190, 166);
   font-size: 14px;
   text-align: left;
 }
