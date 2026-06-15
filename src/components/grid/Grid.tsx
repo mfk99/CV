@@ -11,7 +11,7 @@ export default function Grid() {
   return (
     <>
       <Header />
-      <div id="skills-grid">
+      <div id="education-professional-languages-grid">
         <motion.div
           id="skills-container"
           initial={{ opacity: 0 }}
@@ -37,15 +37,25 @@ export default function Grid() {
           <Projects />
         </motion.div>
       </div>
-      <div id="timeline-grid">
+      <div id="skill-project-grid">
         <motion.div
-          id="timeline-container"
+          id="skill-project-container"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
           <GeneralSkills />
         </motion.div>
+        <motion.div
+          id="skill-project-container"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <Projects />
+        </motion.div>
+      </div>
+      <div id="timeline-grid">
         <motion.div
           id="timeline-container"
           initial={{ opacity: 0 }}

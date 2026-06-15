@@ -2,22 +2,7 @@
   border-radius: 20px 5px 20px 5px;
 }
 
-#timeline-grid {
-  padding-top: 40px;
-  display: grid;
-  grid-template-columns: 20% 75%;
-  gap: 5%;
-}
-
-#timeline-container {
-  background: #2c2c2c;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 5px 5px;
-  gap: 10px;
-}
-
-#skills-grid {
+#education-professional-languages-grid {
   padding-top: 40px;
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -27,6 +12,35 @@
 #skills-container {
   background: #2c2c2c;
   padding: 50px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 5px 5px;
+  gap: 10px;
+}
+
+#skill-project-grid {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 30% 65%;
+  gap: 5%;
+}
+
+#skill-project-container {
+  background: #2c2c2c;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 5px 5px;
+  gap: 10px;
+}
+
+#timeline-grid {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+#timeline-container {
+  background: #2c2c2c;
+  padding: 20px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 5px 5px;
   gap: 10px;
