@@ -13,6 +13,7 @@ export function Education() {
         <br />
         <br />
         <b>BSc Computer Science</b> <br />
+        Minor in Philosophy <br />
         <a>Sept. 2019 - May 2023</a>
         <br />
         <a>University of Helsinki</a>

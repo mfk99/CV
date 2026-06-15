@@ -39,11 +39,11 @@ export default function Header() {
               textAlign: "left",
             }}
           >
-            Welcome to my page! I'm Matti Kähkönen, I'm a young aspiring
+            Welcome to my page! I'm Matti Kähkönen, I'm a young and aspiring
             software developer. Currently, I'm working on finishing me Master's
             thesis and I'm employed by Visma Solutions Oy as a Junior QA
-            Engineer. On this page you can information about my academic and
-            professional history. Feel free to connect with me on LinkedIn,
+            Engineer. On this page you can find information about my academic
+            and professional history. Feel free to connect with me on LinkedIn,
             check through my commits on GitHub or get in touch via e-mail!
             <div
               style={{
