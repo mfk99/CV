@@ -6,6 +6,7 @@ import Header from "../header/Header";
 import { ProgrammingSkills } from "../programming-skills/ProgrammingSkills";
 import { Projects } from "../projects/Projects";
 import { GeneralSkills } from "../general-skills/GeneralSkills";
+import { FunFacts } from "../fun-facts/FunFacts";
 
 export default function Grid() {
   return (
@@ -34,7 +35,7 @@ export default function Grid() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <Projects />
+          <FunFacts />
         </motion.div>
       </div>
       <div id="skill-project-grid">
